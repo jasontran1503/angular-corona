@@ -1,0 +1,21 @@
+<div class="d-flex justify-content-center pt-2">
+  <table>
+    <tbody>
+      <tr class="text-white" *ngFor="let item of data">
+        <td>{{ item.countryName }}</td>
+        <td>
+          <span class="badge badge-secondary">{{ item.data.confirmed }}</span>
+          <span *ngIf="item.data.confirmed == ''" class="badge badge-secondary">0</span>
+        </td>
+        <td>
+          <span class="badge badge-danger">{{ item.data.deaths }}</span>
+          <span *ngIf="item.data.deaths == ''" class="badge badge-danger">0</span>
+        </td>
+        <td>
+          <span class="badge badge-success">{{ item.data.recuperate }}</span>
+          <span *ngIf="item.data.recuperate == ''" class="badge badge-success">0</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,51 @@
+.left-main,
+.center-main,
+.right-main {
+  border: 1px solid white;
+  height: 100%;
+}
+
+.btn-group {
+  text-align: center;
+}
+
+img {
+  width: 20px;
+}
+
+small {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+td {
+    margin: 0 auto;
+}
+
+.circle-1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.circle-2 {
+  height: 80px;
+  width: 80px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.circle-3 {
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.circle-4 {
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  border-radius: 50%;
+}

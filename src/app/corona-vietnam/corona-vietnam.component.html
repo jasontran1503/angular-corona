@@ -1,0 +1,15 @@
+<div class="d-flex justify-content-center pt-2">
+  <table>
+    <tbody>
+      <tr class="text-white" *ngFor="let item of data">
+        <td>{{ item.city }}</td>
+        <td>
+          <span class="badge badge-secondary">{{ item.data.confirmed }}</span>
+        </td>
+        <td>
+          <span class="badge badge-danger">{{ item.data.deaths }}</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
